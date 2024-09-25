@@ -1,0 +1,8 @@
+code cbf.mafia
+#ask user for their name
+
+#remove whitespace from str and capitalize user's name
+name = name.strip().title()
+
+#say hello to user
+print ("hello, {name}")
